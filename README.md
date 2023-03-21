@@ -170,6 +170,12 @@ Visual studio code, another realiable code editor or a Web browser
 - Twitter: [@evillazz](https://twitter.com/evillazz)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/eduardo-villarreal-144a8925a)
 
+## 👤 Ada Rachel
+
+- GitHub: [@githubhandle](https://github.com/adarachel)
+- Twitter: [@twitterhandle](https://twitter.com/adarachel_dev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adarachel/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
