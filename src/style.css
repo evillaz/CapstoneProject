@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 
 html {
-    box-sizing: border-box;
-    font-family: 'Comic Neue', cursive;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    border: 5px solid #000;
-    border-radius: 5px;
-    padding: 10px;
-  }
-  
-  .menu > div {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-  }
-  
-  .menu a {
-    padding-left: 10px;
-    margin-right: 1em;
-    cursor: pointer;
-    color: #000;
-  }
+  display: flex;
+  justify-content: center;
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
 
-  #menu-item-1 {
-    margin-right: 5em;
-  }
+.menu > div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
 
-  #menu-item-2 {
-    margin-right: 4em;
-  }
+.menu a {
+  padding-left: 10px;
+  margin-right: 1em;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000;
+}
 
-  #menu-item-3 {
-    margin-left: 5em;
-  }
+#menu-item-1 {
+  margin-right: 5em;
+}
 
-  footer {
-    font-family: 'Comic Neue', cursive;
-    display: flex;
-    border: 5px solid #000;
-    border-radius: 5px;
-    padding: 10px;
-  }
+#menu-item-2 {
+  margin-right: 4em;
+}
 
+#menu-item-3 {
+  margin-left: 5em;
+}
+
+footer {
+  font-family: 'Comic Neue', cursive;
+  display: flex;
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
