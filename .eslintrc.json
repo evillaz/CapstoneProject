@@ -1,27 +1,26 @@
 {
-    "env": {
+  "env": {
       "browser": true,
-      "es6": true,
-      "jest": true
-    },
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "ecmaVersion": 2018,
+      "es2021": true
+  },
+  "extends": [
+      "airbnb-base"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 12,
       "sourceType": "module"
-    },
-    "extends": ["airbnb-base"],
-    "rules": {
-      "import/no-unresolved": "off",
-      "no-unused-expressions": "off",
-      "no-shadow": "off",
-      "no-param-reassign": "off",
-      "eol-last": "off",
-      "import/extensions": [ 1, {
-        "js": "always", "json": "always"
-      }]
-    },
-    "ignorePatterns": [
-      "dist/",
-      "build/"
-    ]
-  }
+  },
+  "rules": {
+    "import/no-import-module-exports" : "off",
+    "prefer-destructuring" : "off",
+    "import/no-unresolved" : "off"
+  },
+  "ignorePatterns": [
+    "dist/",
+    "build/",
+    "__tests__/",
+    "__mocks__/",
+    "*webpack*",
+    "jest*"
+  ]
+}
