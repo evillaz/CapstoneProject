@@ -1,27 +1,25 @@
-import axios from "axios";
+import axios from 'axios';
 
-class TvAPI {
-  baselink;
-  showList;
-
+export default class TvAPI {
   constructor() {
     this.baselink = 'https://api.tvmaze.com/shows';
     this.showList = [];
   }
 
-  fetchShows = async () => {
+  async fetchShows() {
     try {
       const response = await axios.get(this.baselink);
       return response.data;
-    } catch(error) {
+    } catch (error) {
       return error;
     }
   }
 
-  saveShowList = (shows) => {
+  saveShowList(shows) {
     this.showList = shows;
   }
-  getShowList = () => this.showList;
-}
 
-export default TvAPI;
+  getShowList() {
+    return this.showList;
+  }
+}

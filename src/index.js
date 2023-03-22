@@ -1,12 +1,16 @@
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import displayShow from './modules/displayShow';
-import fetchAllTvShows from './modules/fetchAllTvShows';
+import TvAPI from './modules/tvAPI';
 
-let tvapi = await fetchAllTvShows();
+const tvapi = new TvAPI();
 
-tvapi.showList.forEach(show => {
-  displayShow(show);
-});
+const fetchAllTvShows = async (tvAPI) => {
+  const shows = await tvAPI.fetchShows();
+  tvAPI.saveShowList(shows);
+  tvapi.showList.forEach((show) => {
+    displayShow(show);
+  });
+};
 
-console.log(tvapi);
+fetchAllTvShows(tvapi);
