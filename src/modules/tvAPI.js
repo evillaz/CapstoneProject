@@ -24,6 +24,4 @@ class TvAPI {
   getShowList = () => this.showList;
 }
 
-const tvapi = new TvAPI;
-
-export default tvapi;
+export default TvAPI;

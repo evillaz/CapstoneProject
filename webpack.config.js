@@ -64,7 +64,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'To Do List',
+      title: 'Capstone Project',
       template: './src/index.html',
       inject: 'body',
     }),

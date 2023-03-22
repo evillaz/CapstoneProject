@@ -118,6 +118,7 @@ button {
 .showTitle {
   font-size: 2rem;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .likesCounter {
