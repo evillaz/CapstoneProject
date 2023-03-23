@@ -1,4 +1,4 @@
-const getShowContent = ({ image, name }) => `<div class="showImgPlaceholder d-flex" style="background-image: url(${image.original})"></div>
+const getShowContent = ({ image, name }, likes) => `<div class="showImgPlaceholder d-flex" style="background-image: url(${image.original})"></div>
   <div class="showContent d-flex v">
     <div class="showName d-flex h">
       <h3 class="showTitle">${name}</h2>
@@ -6,7 +6,7 @@ const getShowContent = ({ image, name }) => `<div class="showImgPlaceholder d-fl
         <button class="likeBtn">
           <i class="fa-regular fa-heart"></i>
         </button>
-        <span class="likesCounter">4 Likes</span>
+        <span class="likesCounter">${likes} Likes</span>
       </div>
     </div>
     <button class="commentsBtn">Comments</button>
