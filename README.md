@@ -102,11 +102,11 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 
 <!-- LIVE DEMO -->
 
-<img src="capstone_screenshot1.png./src/assets/" width="70%" alt="desktop screen" />
-
-<img src="capstone_screenshot1.png./src/assets/" width="70%" alt="desktop screen" />
-
 ## 🚀 Live Demo <a name="live-demo"></a>
+
+<img src="capstone_screenshot1.png./src/assets/" width="70%" alt="desktop screen" />
+
+<img src="capstone_screenshot.png./src/assets/" width="70%" alt="desktop screen" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
