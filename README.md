@@ -51,33 +51,36 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 [LiveTVshows] <a name="about-project"></a>
 
-*Leaderboard* website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external api service.
+This *API-based Web App* was built based on the TVmaze API, and it displays the Homepage and Comments pop-up interfaces. Following a wireframe layout, a group of 2 student developers implemented the project using Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing library called Jest.
 
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">
+Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing library called Jest</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">
+- HTML
+- CSS
+- JAVASCRIPT
+- JSON
+</a>
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="">HTML</a></li>
-    <li><a href="">JS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://webpack.js.org/configuration/dev-server/">Webpack Dev Server</a></li>
+    <li><a href="">CSS</a></li>
+    <li><a href="">Javascript</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+  <summary>Frameworks</summary>
   <ul>
-    <li><a href="https://microverse.notion.site/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">API Database services</a></li>
+    <li><a href="">Webpack</a></li>
+    <li><a href="">Jest</a></li>
+    <li><a href="">Kanban Boards</a></li>
   </ul>
 </details>
 
@@ -85,10 +88,15 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Integrate webpack, to add a bundle.js, index.html and style.css into a dist folder]**
+- **[Use JavaScript to make websites dynamic and build basic single page apps.]**
+- **[Use AAA pattern for unit tests]**
 - **[Send and receive data from an API.]**
-- **[Understand and use JSON.]**
-- **[Make JavaScript code asynchronous.]**
+- **List of Movies with poster**
+- **Like button for movies**
+- **List of comments on movies**
+- **TV Show Information and Genres**
+- **Number of likes**
+- **Number of comments**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +104,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See our first Live Demo clicking here!](https://evillaz.github.io/Leaderboard/dist/)
+![capstone_screenshot1](https://user-images.githubusercontent.com/108772486/227722718-a5a1f8a5-55a3-4277-bf52-cd30ef8a8bc5.png)
+![capstone_screenshot2](https://user-images.githubusercontent.com/108772486/227722721-6835ba77-2c85-4e32-bea9-4c5967e5f9dc.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +130,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:evillaz/to-do-lst.git
+  git clone https://github.com/evillaz/CapstoneProject.git
 ```
 
 ### Install
@@ -131,7 +140,7 @@ Run this command:
 Example command:
 
 ```sh
-  cd Leaderboard
+  cd CapstoneProject
   npm install
 ```
 
@@ -143,7 +152,8 @@ Run this command:
 Example command:
 
 ```sh
-  cd toDoList
+  npm run build
+
   npm start
 ```
 
@@ -182,11 +192,9 @@ Visual studio code, another realiable code editor or a Web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Create a new game with the name of your choice by using the API.
-- Implement the "Refresh" button that will get all scores for a game created by you from the API 
-- Implement the form "Submit" button that will save a score for a game created by you.
-- Use arrow functions instead of the function keyword.
-- Use async and await JavaScript features to consume the API.
+- [ ] **More list of movies with box office details**
+- [ ] **Watch trailer and download option**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
