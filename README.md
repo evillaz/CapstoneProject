@@ -106,7 +106,10 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 
 ![capstone_screenshot1](https://user-images.githubusercontent.com/108772486/227722718-a5a1f8a5-55a3-4277-bf52-cd30ef8a8bc5.png)
 ![capstone_screenshot2](https://user-images.githubusercontent.com/108772486/227722721-6835ba77-2c85-4e32-bea9-4c5967e5f9dc.png)
-
+<br><br>
+[-Check our demo of the project features!](https://drive.google.com/file/d/1p0_jAgubdrDGPFTn5HqG96ZfwUY0PyZh/view?usp=sharing)
+<br><br><br>
+[**Check our live demo clicking here!!**](https://evillaz.github.io/CapstoneProject/dist/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
