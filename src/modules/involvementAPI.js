@@ -41,4 +41,31 @@ export default class InvolvementAPI {
       return error;
     }
   }
+
+  async saveComment(showId, user, commentInput) {
+    try {
+      const response = await axios.post(
+        `${this.apiLink}apps/${this.appId}/comments`,
+        {
+          item_id: showId,
+          username: user,
+          comment: commentInput,
+        },
+      );
+      return response;
+    } catch (error) {
+      return error;
+    }
+  }
+
+  async getComments(showID) {
+    try {
+      const response = await axios.get(
+        `${this.apiLink}apps/${this.appId}/comments?item_id=${showID}`,
+      );
+      return response.data;
+    } catch (error) {
+      return error;
+    }
+  }
 }

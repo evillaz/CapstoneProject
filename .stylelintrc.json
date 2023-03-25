@@ -17,5 +17,5 @@
       ]
     },
     "csstree/validator": true,
-    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "assets/**", "package**"]
+    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "assets/**", "package**", "coverage/**"]
   }

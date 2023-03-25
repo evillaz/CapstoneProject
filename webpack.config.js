@@ -30,41 +30,25 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              outputPath: 'assets/',
-            },
-          },
-        ],
+        loader: 'file-loader',
+        options: {
+          name: '[name].[hash:6].[ext]',
+          outputPath: 'assets',
+          publicPath: 'assets',
+          emitFile: true,
+          esModule: false
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
-      },
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
-          options: {
-            sources: {
-              list: [
-                {
-                  tag: 'img',
-                  attribute: 'src',
-                  type: 'src',
-                },
-              ],
-            },
-          },
       },
     ],
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Capstone Project',
+      title: 'LIVE SHOWS',
       template: './src/index.html',
       inject: 'body',
     }),
