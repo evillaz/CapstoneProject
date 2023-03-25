@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <nav class="navBar">
+      <div class="menu d-flex h">
+        <a id="menu-item-1" class="d-flex h" href="./index.html">
+          <img class="logo-img" src="<%= require('../assets/live-tv-logo.png') %>" alt="Live TV Logo">
+          Shows(<span id="showsCounter"></span>) </a>
+        <a id="menu-item-2"> Actors </a>
+        <a id="menu-item-3"> About </a>
+      </div>
+    </nav>
+    <main>
+      <section id="showContainer">
+      </section>
+      <section id="popupSection" class="popup">
+      </section>
+    </main>
+    <footer>
+      <span>Created by AdaRachel & Evillaz, under CC license.</span>
+    </footer>
+</body>
+</html>
