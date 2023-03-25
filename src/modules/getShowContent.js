@@ -1,4 +1,4 @@
-const getShowContent = ({ image, name }, likes) => `<div class="showImgPlaceholder d-flex" style="background-image: url(${image.original})"></div>
+const getShowContent = ({ image, name }, likes) => `<div class="showImgPlaceholder d-flex" style="background-image: url(${image.medium})"></div>
   <div class="showContent d-flex v">
     <div class="showName d-flex h">
       <h3 class="showTitle">${name}</h2>

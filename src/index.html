@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Capstone|AdaRachel, Evillaz</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-    <nav class="menu">
-        <div>
-          <img src="../assets/like-icon.svg" alt="Live TV Logo">  
-          <a id="menu-item-1"> Spaceships(6) </a>
-          <a id="menu-item-2"> Planets </a>
-          <a id="menu-item-3"> Races </a>
-        </div>
+    <nav class="navBar">
+      <div class="menu d-flex h">
+        <a id="menu-item-1" class="d-flex h" href="./index.html">
+          <img class="logo-img" src="<%= require('../assets/live-tv-logo.png') %>" alt="Live TV Logo">
+          Shows(<span id="showsCounter"></span>) </a>
+        <a id="menu-item-2"> Actors </a>
+        <a id="menu-item-3"> About </a>
+      </div>
     </nav>
     <main>
       <section id="showContainer">
-
+      </section>
+      <section id="popupSection" class="popup">
       </section>
     </main>
     <footer>
