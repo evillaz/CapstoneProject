@@ -51,7 +51,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 [LiveTVshows] <a name="about-project"></a>
 
 This *API-based Web App* was built based on the TVmaze API, and it displays the Homepage and Comments pop-up interfaces. Following a wireframe layout, a group of 2 student developers implemented the project using Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing library called Jest.
 
@@ -104,9 +104,9 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<img src="/src/assets/capstone_screenshot1.png" width="70%" alt="desktop screen" />
+<img src="./assets/capstone_screenshot1.png" width="70%" alt="desktop screen" />
 
-<img src="/src/assets/capstone_screenshot.png" width="70%" alt="desktop screen" />
+<img src="./assets/capstone_screenshot.png" width="70%" alt="desktop screen" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
