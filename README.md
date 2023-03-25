@@ -106,7 +106,7 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 
 <img src="./assets/capstone_screenshot1.png" width="70%" alt="desktop screen" />
 
-<img src="./assets/capstone_screenshot.png" width="70%" alt="desktop screen" />
+<img src="./assets/capstone_screenshot2.png" width="70%" alt="desktop screen" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
