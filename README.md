@@ -104,9 +104,8 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<img src="./assets/capstone_screenshot1.png" width="70%" alt="desktop screen" />
-
-<img src="./assets/capstone_screenshot2.png" width="70%" alt="desktop screen" />
+![capstone_screenshot1](https://user-images.githubusercontent.com/108772486/227722718-a5a1f8a5-55a3-4277-bf52-cd30ef8a8bc5.png)
+![capstone_screenshot2](https://user-images.githubusercontent.com/108772486/227722721-6835ba77-2c85-4e32-bea9-4c5967e5f9dc.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
