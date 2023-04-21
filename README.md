@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [LiveTVshows] <a name="about-project"></a>
 
-This *API-based Web App* was built based on the TVmaze API, and it displays the Homepage and Comments pop-up interfaces. Following a wireframe layout, a group of 2 student developers implemented the project using Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing library called Jest.
+This *API-based Web App* was built based on the TVmaze API, and it displays the Homepage and Comments pop-up interfaces. Following a wireframe layout, using Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing library called Jest.
 
 
 ## 🛠 Built With <a name="built-with">
