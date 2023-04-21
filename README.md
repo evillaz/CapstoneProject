@@ -109,7 +109,7 @@ Gitflow, Linters, HTML, CSS, Javascript, Webpack and a Javascript testing librar
 <br><br>
 [-Check our demo of the project features!](https://drive.google.com/file/d/1p0_jAgubdrDGPFTn5HqG96ZfwUY0PyZh/view?usp=sharing)
 <br><br><br>
-[**Check our live demo clicking here!!**](https://evillaz.github.io/CapstoneProject/dist/)
+[**Check our live demo clicking here!!**](https://evillaz.github.io/LIVE-TV-SHOWS/dist/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
